@@ -1,0 +1,42 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: #ffffff;
+}
+
+footer {
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;;
+}
+
+section {
+    margin-left: 20px;  
+}
+
+#main {             /*upper section*/
+    display: flex;
+    margin-top: 50px;
+}
+
+section div.info-container{    
+    padding-top: 50px;      /*center vertically*/
+    flex-grow: 1;
+}
+
+section div.pic-container{
+    flex-grow: 10;
+}
