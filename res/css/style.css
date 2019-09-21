@@ -13,6 +13,19 @@ header {
 	top: 0; 
 	width: 100%; 
 	background-color: #ffffff;
+	box-shadow: 10px 5px 5px grey;
+}
+
+
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;	
+	padding-right: 10px;
+}
+
+th {
+	padding-right: 20px;
 }
 
 footer {
